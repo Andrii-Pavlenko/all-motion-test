@@ -1,0 +1,302 @@
+body, button, p, pre {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  font-family: "Ubuntu", sans-serif; }
+
+.header {
+  display: flex;
+  justify-content: center; }
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .header__up {
+    margin-top: 4vw; }
+    .header__up__lavanda {
+      color: #3d426d;
+      font-weight: 700;
+      font-size: 2vw; }
+    .header__up__text {
+      font-weight: 700;
+      font-size: 2vw;
+      color: #313131; }
+  .header__middle {
+    margin-top: 1vw;
+    font-size: 2vw;
+    color: #313131; }
+  .header__lover {
+    margin-top: 1vw;
+    font-size: 1.8vw;
+    font-weight: 700;
+    color: #313131;
+    position: relative;
+    z-index: 3; }
+
+.main__container {
+  position: relative;
+  margin: 7vw 5vw; }
+  .main__container__left {
+    margin-top: 50px;
+    margin-left: 20vw;
+    border: 2px solid #3d426d;
+    border-left: 2px solid #3d426d;
+    width: 31vw;
+    height: 30.5vw;
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    z-index: 3; }
+    .main__container__left__cont {
+      width: 20vw;
+      height: 31vw;
+      position: relative;
+      z-index: 3;
+      transform: translate(-7vw, 3vw);
+      background-color: #ffffff; }
+      .main__container__left__cont__header {
+        color: #3d426d;
+        font-size: 2vw;
+        font-weight: bold; }
+      .main__container__left__cont__text {
+        font-size: 1.2vw;
+        color: #313131;
+        margin-top: 2vw;
+        line-height: 1.7vw; }
+      .main__container__left__cont__footer {
+        font-size: 0.7vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        border-right: 2px solid #3d426d;
+        transform: translateY(1.8vw);
+        padding-right: 1vw; }
+  .main__container__right {
+    margin-top: 4.5vw;
+    margin-right: 20vw;
+    border: 2px solid #3d426d;
+    border-bottom: 2px solid #3d426d;
+    width: 35vw;
+    height: 21vw;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 21.7vw; }
+    .main__container__right__lavanda {
+      width: 23vw;
+      height: 23vw;
+      position: absolute;
+      top: -23vw;
+      left: 30vw; }
+    .main__container__right__cont {
+      width: 25vw;
+      height: 16vw;
+      border: 2px solid #3d426d;
+      padding-top: 2vw;
+      padding-left: 4vw;
+      position: absolute;
+      z-index: 4;
+      margin-left: 25vw;
+      background-color: #ffffff;
+      top: -0.5vw;
+      box-sizing: border-box; }
+      .main__container__right__cont__text {
+        font-size: 1.5vw;
+        color: #313131; }
+      .main__container__right__cont__footer {
+        font-size: 0.7vw;
+        display: block;
+        text-align: end;
+        width: 10vw;
+        position: relative;
+        left: 5vw;
+        bottom: 1vw;
+        margin-top: 1vw; }
+.main__bottles {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  width: 35vw;
+  top: 18.5vw;
+  margin-left: 34vw; }
+  .main__bottles__lotion {
+    width: 9vw;
+    height: 28vw; }
+  .main__bottles__big-bottle {
+    width: 11vw;
+    height: 14vw;
+    margin-top: 4vw; }
+    .main__bottles__big-bottle__container {
+      height: 21vw;
+      background-color: white;
+      margin-top: 7.8vw; }
+  .main__bottles__small-bottle {
+    width: 7vw;
+    height: 23vw;
+    position: relative;
+    bottom: 2vw; }
+  .main__bottles__cream {
+    width: 11vw;
+    height: 25vw;
+    margin-top: 3vw; }
+
+.footer {
+  width: 98vw;
+  height: 7vw;
+  margin-top: 14vw; }
+
+.footer__image {
+  width: 100%;
+  height: 7vw;
+  object-fit: fill; }
+
+.button {
+  width: 14vw;
+  height: 3vw;
+  background-color: #896cc4;
+  color: #ffffff;
+  position: relative;
+  top: 5vw;
+  right: 7vw;
+  cursor: pointer;
+  font-size: 1.5vw; }
+
+@media screen and (max-width: 800px) {
+  .header {
+    justify-content: flex-end; }
+    .header__container {
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin-right: 4vw; }
+    .header__up__lavanda {
+      font-size: 4vw;
+      display: block;
+      text-align: end; }
+    .header__up__text {
+      font-size: 4vw; }
+    .header__middle {
+      margin-top: 1vw;
+      font-size: 3vw;
+      text-align: end; }
+    .header__lover {
+      margin-top: 1vw;
+      font-size: 4vw;
+      font-weight: 700;
+      color: #313131;
+      position: relative;
+      z-index: 3;
+      text-align: end; }
+
+  .main__container {
+    position: relative;
+    margin: 7vw 5vw; }
+    .main__container__left {
+      margin-top: 55vw;
+      margin-left: 60vw;
+      border: 2px solid #3d426d;
+      border-left: 2px solid #3d426d;
+      width: 25vw;
+      height: 30.5vw;
+      display: inline-block;
+      position: relative;
+      background-color: white;
+      z-index: 3; }
+      .main__container__left__cont {
+        width: 90vw;
+        height: 31vw;
+        position: absolute;
+        z-index: 3;
+        top: 20vw;
+        transform: translate(-55vw, 7vw);
+        background-color: #ffffff;
+        left: 0;
+        right: 40vw; }
+        .main__container__left__cont__header {
+          color: #3d426d;
+          font-size: 4vw;
+          font-weight: bold;
+          text-align: end; }
+        .main__container__left__cont__text {
+          font-size: 3.5vw;
+          color: #313131;
+          margin-top: 5vw;
+          line-height: 1.5;
+          text-align: center; }
+        .main__container__left__cont__footer {
+          display: none; }
+    .main__container__right {
+      display: none; }
+  .main__bottles {
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    width: 40vw;
+    top: 50vw;
+    margin-left: 5vw; }
+    .main__bottles__lotion {
+      width: 20vw;
+      height: 70vw; }
+    .main__bottles__big-bottle {
+      width: 27vw;
+      height: 35vw;
+      margin-top: 18vw; }
+      .main__bottles__big-bottle__container {
+        height: 21vw;
+        background-color: white;
+        margin-top: 7.8vw; }
+    .main__bottles__small-bottle {
+      width: 22vw;
+      height: 60vw;
+      position: relative;
+      bottom: 8vw; }
+    .main__bottles__cream {
+      width: 25vw;
+      height: 60vw;
+      margin-top: 3vw; }
+
+  .footer {
+    width: 98vw;
+    height: 20vw;
+    position: relative;
+    margin-top: 80vw;
+    bottom: 0; }
+
+  .footer__image {
+    width: 100%;
+    height: 20vw;
+    object-fit: fill; }
+
+  .button {
+    width: 60vw;
+    height: 15vw;
+    background-color: #896cc4;
+    color: #ffffff;
+    position: absolute;
+    top: 10vw;
+    left: 16vw;
+    cursor: pointer;
+    font-size: 6vw;
+    margin: 0 5vw;
+    z-index: 10; }
+    .button__wrapper {
+      width: 98vw;
+      position: absolute;
+      height: 30vw;
+      top: 56vw;
+      left: -60vw;
+      z-index: 6;
+      background-color: #ffffff;
+      box-shadow: 0px -50px 43px -31px white; }
+
+  .header_span {
+    display: block; }
+
+  .header_span2 {
+    display: block; } }
+
+/*# sourceMappingURL=styles.css.map */
